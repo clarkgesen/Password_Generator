@@ -7,3 +7,6 @@ You can also choose what kind of characters you would like in your password. The
 
 ## Copy to Clipboard
 After your password has been generated, you have the option to copy it to your clipboard
+
+## Github pages link
+https://clarkgesen.github.io/Password_Generator/index.html
