@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Password Generator</title>
+</head>
+
+<body>
+  <header>
+    <br>
+    <br>
+    <br>
+    <br>
+  </header>
+  <div class="jumbotron">
+    <h1 class="display-4">Generate a Password.</h1>
+    <br>
+    <br>
+    <textarea id="jumbotron" readonly id=password placeholder=password aria-label="Generated Password"></textarea>
+    <br>
+    <br>
+    <button id="genButton" type="button" onclick="generatePassword()" class="btn btn-primary">Generate Password</button>
+    <button id="copyButton" type="button" onclick="copyToClipboard()" class="btn btn-info">Copy to Clipboard</button>
+    <hr class="my-4">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
