@@ -93,7 +93,7 @@ function generatePassword() {
             character = charset.charAt(index);
             password = password + character;
 
-            } \
+            }
     // Charset without symbols
     } else if (lowerCase && upperCase && !symbols && numbers) {
             var charset = ("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890");
